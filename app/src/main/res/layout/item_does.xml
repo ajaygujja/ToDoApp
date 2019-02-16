@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/bgitemdoes"
+    android:layout_marginBottom="20dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/titledoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:text="Buy Whiskey"
+
+            android:textColor="#000C5D"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/descdoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Nearly Market Good to"
+
+            android:textColor="#ADADAD"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/datedoes"
+            android:textSize="15sp"
+            android:textColor="#F63EA5"
+            android:text="Tomorrow"
+            android:padding="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

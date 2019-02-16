@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titlepage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:layout_marginTop="20dp"
+            android:text="Add New Does"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="26sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="#131E69" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingBottom="22dp"
+        android:paddingTop="22dp"
+        android:background="@drawable/bgitemdoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="-55dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp">
+            <TextView
+                android:id="@+id/addtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Title"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="What You Do?"
+                android:inputType="text"
+                android:background="@drawable/bginputtask"
+                android:paddingLeft="12dp"
+                android:textColorHint="#b5b5b5"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/titleDoes"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp">
+            <TextView
+                android:id="@+id/adddesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="How to?"
+                android:inputType="text"
+                android:maxLength="40"
+                android:background="@drawable/bginputtask"
+                android:paddingLeft="12dp"
+                android:textColorHint="#b5b5b5"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/descDoes"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp">
+            <TextView
+                android:id="@+id/adddate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Timeline"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="When will?"
+                android:inputType="text"
+                android:maxLength="25"
+                android:background="@drawable/bginputtask"
+                android:paddingLeft="12dp"
+                android:textColorHint="#b5b5b5"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/dateDoes"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:textSize="22sp"
+            android:text="Create Now"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnSaveTask"
+            android:background="@drawable/bgbtncreate"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="22sp"
+            android:text="Cancel"
+            android:background="@drawable/bgbtncancel"
+            android:textColor="#afafaf"
+            android:textAllCaps="false"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnCancel"
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
